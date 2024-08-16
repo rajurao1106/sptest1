@@ -1,0 +1,163 @@
+.global{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 18rem;
+    
+    background-color: #265aa2;
+}
+.global-box{
+    width: 100%;
+    height: 65vw;
+}
+.about-me h3{
+    color: white;
+}
+.about-me-con{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.about-me-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.about-me-box img{
+    width: 30vw;
+    height: 25vw;
+    top: 5vw;
+    border-radius: 2rem;
+    position: relative;
+    animation: fadein 3s;
+}
+.about-details{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.about-details button:hover{
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 10px 20px #a0c8ff;
+}
+.about-details h3{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+
+}
+.about-details h1{
+    font-family: "Calibri", Times, serif;
+    font-weight: 800;
+    color:orange;
+    
+}
+.about-details p{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+   
+}
+.team-image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.team-image-con{
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    padding-top: 5rem;
+    position: absolute;
+}
+.team-1{
+    width: 30vw;
+    height: 23vw;
+    border-radius: 10px;
+}
+.team-2{
+    width: 26vw;
+    height: 34vw;
+    border-radius: 10px;
+}
+.team-3{
+    width: 24vw;
+    height: 17vw;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .about-me-box img{
+        width: 40vw;
+        height: 40vw;
+        top: 5vw;
+    }
+    .about-me{
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+    .about-details{
+        width: 80%;
+    
+    }
+    .about-details h1, h3{
+        font-size: 18px;
+    }
+    .about-details p{
+        font-size: 14px;
+    }
+    .about-image{
+        gap: 1rem;
+    }
+    .ai-img1{
+        width: 15rem;
+        height: 10rem;
+        border-radius: 20px;
+    }
+    .ai-img2{
+        width: 40vw;
+        height: 30vw;
+        border-radius: 20px;
+    }
+    .blur-image{
+        width: 90%;
+        position: absolute;
+        z-index: -1;
+        
+    }
+    .about-details button{
+        font-size: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .team-image{
+        display: none;
+    }
+    
+}
+@media (max-width:1008px) {
+    .team-image{
+        display: none;
+    }
+}

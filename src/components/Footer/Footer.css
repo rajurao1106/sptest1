@@ -1,0 +1,143 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #265AA5;
+    color: white;
+}
+.footer-con{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.icons img{
+    width: 30px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-contact, .footer-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footer-contact, .footer-service li{
+    list-style: none;
+}
+.pages{
+    flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    width: 50%;
+    
+
+}
+
+.footer-box .div1{
+    display: flex;
+    width: 80%;
+    
+}
+
+.footer-box li{
+    color: white;
+    font-family: "Calibri", Arial,sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+}
+
+
+hr{
+    width:80%;
+    height: 1px;
+    border: hidden;
+    background-color: white;
+}
+.copyright{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    padding: 10px;
+}
+.copyright div{
+    display: flex;
+    gap: 1rem;
+}
+#map iframe{
+    height: 200px;
+    width: 200px;
+    border: none;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+
+
+
+@media (max-width:768px) {
+    
+    .copyright p{
+        font-size: 6px;
+    }
+    
+    
+    .pages{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .div1{
+        width: 100%;
+        
+        
+    }
+    #map iframe{
+        height: 140px;
+        width: 130px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .address{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer-box li{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:425px){
+    .footer-box{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+} 
