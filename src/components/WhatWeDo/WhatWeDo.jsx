@@ -21,7 +21,7 @@ function WhatWeDo() {
         <h1 data-aos="fade-up">OUR EXPERTISE</h1>
         <div className="whatwedo-box">
           
-        <Link to={"/Outdoor-Advertising"} className="wwd-box" data-aos="zoom-in" >
+        <Link to={"/sptest1/Outdoor-Advertising"} className="wwd-box" data-aos="zoom-in" >
             <div className="heading"><h2>Outdoor Advertising</h2></div>
             <img className="banner" src={outdoor_img1} alt="" />
             <div className="points">
@@ -31,7 +31,7 @@ function WhatWeDo() {
                 <div className="points-box"><img src={blue_tick} alt="" /><p>Pole Kiosk</p></div>
             </div>
           </Link>
-          <Link to={"/Digital-Marketing"} className="wwd-box" data-aos="zoom-in">
+          <Link to={"/sptest1/Digital-Marketing"} className="wwd-box" data-aos="zoom-in">
             <div className="heading"><h2>Digital Marketing</h2></div>
             <img className="banner" src={digital_marketing_img} alt="" />
             <div className="points">
@@ -41,7 +41,7 @@ function WhatWeDo() {
                 <div className="points-box"><img src={blue_tick} alt="" /><p>Application Development</p></div>
             </div>
           </Link>
-          <Link to={"/Designing-Services"} className="wwd-box" data-aos="zoom-in">
+          <Link to={"/sptest1/Designing-Services"} className="wwd-box" data-aos="zoom-in">
             <div className="heading"><h2>Designing Services</h2></div>
             <img className="banner" src={img3} alt="" />
             <div className="points">
@@ -50,7 +50,7 @@ function WhatWeDo() {
                 <div className="points-box"><img src={blue_tick} alt="" /><p>Design & Artwork </p></div>
             </div>
           </Link>
-          <Link to={"/Print-Media"} className="wwd-box" data-aos="zoom-in">
+          <Link to={"/sptest1/Print-Media"} className="wwd-box" data-aos="zoom-in">
             <div className="heading"><h2>Print Media</h2></div>
             <img className="banner" src={img5} alt="" />
             <div className="points">
@@ -60,7 +60,7 @@ function WhatWeDo() {
                 <div className="points-box"><img src={blue_tick} alt="" /><p>In-shop Branding</p></div>
             </div>
           </Link>
-          <Link to={"/Branding-Strategy"} className="wwd-box" data-aos="zoom-in">
+          <Link to={"/sptest1/Branding-Strategy"} className="wwd-box" data-aos="zoom-in">
             <div className="heading"><h2>Branding & Strategy</h2></div>
             <img className="banner" src={img4} alt="" />
             <div className="points">
@@ -69,7 +69,7 @@ function WhatWeDo() {
                 <div className="points-box"><img src={blue_tick} alt="" /><p>Corporate and brand Identity</p></div>
             </div>
           </Link>
-          <Link to={"/Event-Promotion"} className="wwd-box" data-aos="zoom-in">
+          <Link to={"/sptest1/Event-Promotion"} className="wwd-box" data-aos="zoom-in">
             <div className="heading"><h2>Event Promotion</h2></div>
             <img className="banner" src={img6} alt="" />
             <div className="points">

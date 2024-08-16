@@ -68,7 +68,7 @@ function PrintMedia() {
         
       
       </div>
-      <Link to={"/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )
