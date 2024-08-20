@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 import Home from './components/Home/Home.jsx';
-import AboutMe from './components/AboutMe/AboutMe.jsx'
-import Blog from './components/Blog/Blog.jsx'
-import ChooseUs from './components/ChooseUs/ChooseUs.jsx'
-import Contact from './components/Contact/Contact.jsx'
+import AboutMe from './components/AboutMe/AboutMe.jsx';
+import Blog from './components/Blog/Blog.jsx';
+import ChooseUs from './components/ChooseUs/ChooseUs.jsx';
+import Contact from './components/Contact/Contact.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import ScrollEffect from './components/ScrollEffect/ScrollEffect.jsx';
 import BrandingStrategy from './components/Services/BrandingStrategy.jsx'
 import DigitalMarketing from './components/Services/DigitalMarketing.jsx';
-import DesigningServices from './components/Services/DesigningServices.jsx'
-import EventPromotion from './components/Services/EventPromotion.jsx'
-import OutdoorAdvertising from './components/Services/OutdoorAdvertising.jsx'
-import PrintMedia from './components/Services/PrintMedia.jsx'
+import DesigningServices from './components/Services/DesigningServices.jsx';
+import EventPromotion from './components/Services/EventPromotion.jsx';
+import OutdoorAdvertising from './components/Services/OutdoorAdvertising.jsx';
+import PrintMedia from './components/Services/PrintMedia.jsx';
 import Showcase from './components/Showcase/Showcase.jsx';
 import WhatWeDo from './components/WhatWeDo/WhatWeDo.jsx';
-import WelcomePage from './components/WelcomePage/WelcomePage.jsx'
+import WelcomePage from './components/WelcomePage/WelcomePage.jsx';
 import Career from './components/Career/Career.jsx';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
