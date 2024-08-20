@@ -20,6 +20,7 @@ import Career from './components/Career/Career.jsx';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import ScrollToTop from './useScrollToTop.jsx';
+import Portfolio from './components/Portfolio/Portfolio.jsx';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
           <Route path="/sptest1/Branding-Strategy"element={<BrandingStrategy/>}/>
           <Route path="/sptest1/Event-Promotion"element={<EventPromotion/>}/>
           <Route path="/sptest1/Blog"element={<Blog/>}/>
+          <Route path="/sptest1/Portfolio"element={<Portfolio/>}/>
       </Routes>
       <Footer/>
     </Router>

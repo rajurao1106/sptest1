@@ -39,7 +39,7 @@ function Navbar() {
         </div>
         <Link to={"/sptest1/Welcome-page"}  >Clients</Link>
         <Link to={"/sptest1/Blog"}>Blog</Link>
-            
+        <Link to={"/sptest1/Portfolio"}>Portfolio</Link>
         </ul>
       </div>
       <div className="cart">
