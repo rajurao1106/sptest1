@@ -16,7 +16,6 @@ import PrintMedia from './components/Services/PrintMedia.jsx';
 import Showcase from './components/Showcase/Showcase.jsx';
 import WhatWeDo from './components/WhatWeDo/WhatWeDo.jsx';
 import WelcomePage from './components/WelcomePage/WelcomePage.jsx';
-import Career from './components/Career/Career.jsx';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import ScrollToTop from './useScrollToTop.jsx';
@@ -30,7 +29,7 @@ function App() {
     <ScrollToTop />
     <Navbar/>
       <Routes>
-          <Route path="/"element={<Home/>} />
+          <Route path="/sptest1/"element={<Home/>} />
           <Route path='/about' element={<AboutMe/>}/>
           <Route path='/Choose-Us' element={<ChooseUs/>}/>
           <Route path='/Contact' element={<Contact/>}/>
