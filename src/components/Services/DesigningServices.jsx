@@ -1,11 +1,10 @@
 import React from 'react'
 import './Services.css'
-import design from '../../assets/design.jpg'
+import design from '../../assets/Services/DesigningServices/design.jpg'
 import { Link } from 'react-router-dom'
-import packaging_img from '../../assets/packaging-img.jpg' 
-import packaging_img1 from '../../assets/packaging-img2.jpg' 
-import packaging_img2 from '../../assets/packaging-img3.jpg' 
-
+import packaging_img from '../../assets/Services/DesigningServices/packaging-img.jpg' 
+import packaging_img1 from '../../assets/Services/DesigningServices/packaging-img2.jpg' 
+import packaging_img2 from '../../assets/Services/DesigningServices/packaging-img3.jpg' 
 
 function DesigningServices() {
   return (
@@ -57,7 +56,7 @@ function DesigningServices() {
         
       
       </div>
-      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

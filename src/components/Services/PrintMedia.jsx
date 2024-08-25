@@ -1,15 +1,11 @@
 import React from 'react'
 import './Services.css'
-import print from '../../assets/print.jpg'
+import print from '../../assets/Services/PrintMedia/print.jpg'
 import { Link } from 'react-router-dom'
-import print_img1 from '../../assets/prini-img1.jpeg'
-import print_img2 from '../../assets/prini-img2.jpeg'
-import print_img3 from '../../assets/prini-img3.jpeg'
-import print_img from '../../assets/prini-img.jpeg'
-import Newspaper_Ads from '../../assets/Newspaper-Ads.jpg'
-import Brochure from '../../assets/Brochure.jpg'
-import inshop from '../../assets/inshop.png'
-
+import print_img2 from '../../assets/Services/PrintMedia/prini-img2.jpeg'
+import Newspaper_Ads from '../../assets/Services/PrintMedia/Newspaper-Ads.jpg'
+import Brochure from '../../assets/Services/PrintMedia/Brochure.jpg'
+import inshop from '../../assets/Services/PrintMedia/inshop.png'
 
 function PrintMedia() {
   return (
@@ -68,7 +64,7 @@ function PrintMedia() {
         
       
       </div>
-      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

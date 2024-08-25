@@ -1,11 +1,9 @@
 import React from 'react'
 import './Services.css'
-import event from '../../assets/event.jpg'
+import event from '../../assets/Services/EventPromotion/event.jpg'
 import { Link } from 'react-router-dom'
-import event_img from '../../assets/event-img.webp'
-import event_img1 from '../../assets/event-img1.webp'
-import Corporate_Event from '../../assets/Corporate-Event.jpg'
-import mall from '../../assets/mall.png'
+import Corporate_Event from '../../assets/Services/EventPromotion/Corporate-Event.jpg'
+import mall from '../../assets/Services/EventPromotion/mall.png'
 
 function EventPromotion() {
   return (
@@ -42,7 +40,7 @@ function EventPromotion() {
       
       
       </div>
-      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

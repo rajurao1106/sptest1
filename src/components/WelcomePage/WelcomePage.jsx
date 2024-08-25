@@ -1,21 +1,15 @@
 import React from 'react'
 import './WelcomePage.css'
-import logo2 from '../../assets/logo2.webp'
-import client_image1 from '../../assets/client1.webp'
-import client_image2 from '../../assets/client2.webp'
-import client_image3 from '../../assets/client3.webp'
-import client_image4 from '../../assets/client4.webp'
-import client_image5 from '../../assets/client5.webp'
-
+import client_image1 from '../../assets/WelcomePage/client1.webp'
+import client_image2 from '../../assets/WelcomePage/client2.webp'
+import client_image3 from '../../assets/WelcomePage/client3.webp'
+import client_image4 from '../../assets/WelcomePage/client4.webp'
+import client_image5 from '../../assets/WelcomePage/client5.webp'
 import 'react-slideshow-image/dist/styles.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-
 
 function WelcomePage() {
-
-    
 
   return (
     <div className='welcome' id='welcome'>

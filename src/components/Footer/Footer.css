@@ -49,15 +49,14 @@
     flex-direction: row;
     gap: 40px;
     justify-content: center;
-    width: 50%;
     
 
 }
 
 .footer-box .div1{
     display: flex;
-    width: 80%;
-    
+    justify-content: center;
+    width: 100%;
 }
 
 .footer-box li{
@@ -73,18 +72,22 @@ hr{
     width:80%;
     height: 1px;
     border: hidden;
-    background-color: white;
+    background-color: gainsboro;
 }
 .copyright{
     width: 80%;
     display: flex;
     justify-content: space-around;
-    font-size: 15px;
+    
     padding: 10px;
 }
 .copyright div{
     display: flex;
     gap: 1rem;
+    
+}
+.copyright p{
+    font-size: 15px;
 }
 #map iframe{
     height: 200px;
@@ -94,17 +97,27 @@ hr{
 .address{
     display: flex;
     flex-direction: column;
-    gap: 10px   ;
+    gap: 12px;
+    
 }
-
+.address p{
+    font-size: 16px;
+}
+.footer-conct{
+    display: grid;
+    gap: 5px;
+}
 
 
 @media (max-width:768px) {
     
     .copyright p{
-        font-size: 6px;
+        font-size: 8px;
     }
-    
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+    }
     
     .pages{
         flex-direction: column;
@@ -113,15 +126,13 @@ hr{
     
     .div1{
         width: 100%;
-        
-        
     }
     #map iframe{
         height: 140px;
         width: 130px;
     }
     .address p{
-        font-size: 10px;
+        font-size: 13px;
     }
     .address{
         display: flex;
@@ -129,7 +140,11 @@ hr{
         align-items: center;
     }
     .footer-box li{
-        font-size: 12px;
+        font-size: 16px;
+        
+    }
+    .footer-box{
+        flex-direction: column;
     }
     
 }

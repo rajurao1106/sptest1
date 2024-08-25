@@ -1,12 +1,11 @@
 import React from 'react';
 import './Showcase.css'
-import showcase1 from '../../assets/showcase1.webp'
-import showcase2 from '../../assets/showcase2.webp'
-import showcase3 from '../../assets/showcase3.webp'
-import showcase4 from '../../assets/showcase4.webp'
-import showcase5 from '../../assets/showcase5.webp'
-import showcase6 from '../../assets/Showcase6.webp'
-
+import showcase1 from '../../assets/Showcase/showcase1.webp'
+import showcase2 from '../../assets/Showcase/showcase2.webp'
+import showcase3 from '../../assets/Showcase/showcase3.webp'
+import showcase4 from '../../assets/Showcase/showcase4.webp'
+import showcase5 from '../../assets/Showcase/showcase5.webp'
+import showcase6 from '../../assets/Showcase/Showcase6.webp'
 import 'react-slideshow-image/dist/styles.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

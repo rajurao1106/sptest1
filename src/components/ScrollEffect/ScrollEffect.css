@@ -17,9 +17,10 @@
     align-items: center;
 }
 .bg-con h1{
-    font-family: "Calibri", Times, serif;
-    font-weight: 900;
-    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(255, 217, 0);
 }
 .background{
     background-color:#265AA5 ;
@@ -60,16 +61,12 @@
     height: 30vw;
 }
 .background button{
-
-    width: 10vw;
-
     padding: 1vw;
-    border-radius: 50px;
+    border-radius: 10px;
     border: hidden;
     font-size: 1vw;
-    width: 12vw;
+    width: 10vw;
     padding: .5vw;
-    border-radius: 50px;
     border: hidden;
     font-size: 1.5vw;
     background-color: white;
@@ -93,9 +90,9 @@
     border-radius: 4vw;
     }
     .background button{
-        width: 25vw;
+        width: 35vw;
         padding: 8px;
-        font-size: 3vw;
+        font-size: 18px;
 
     }
     

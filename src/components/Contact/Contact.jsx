@@ -10,8 +10,8 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "ad930d98-be46-47ce-8e19-120de12bffb0");
-
+    formData.append("access_key", "ad930d98-be46-47ce-8e19-120de12bffb0"); 
+    // raju = 5f1e465a-6898-4169-b57c-92103a1e3ade // office = ad930d98-be46-47ce-8e19-120de12bffb0
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
@@ -43,14 +43,22 @@ function Contact() {
         <div className="contact-details">
           <form onSubmit={onSubmit} className="contact-details-right">
           <div className="input">
-          <input type="text" name='name' placeholder='Full Name' />
+          <input type="text" name='name' placeholder='Full Name' required/>
           
-          <input type="tel" name='phone' placeholder='Phone Number' />
+          <input type="tel" name='phone' placeholder='Phone Number' required/>
+          <select type="text" name='service' required>
+            <option value="Select Your Service">Select Your Service</option>
+            <option value="Outdoor Advertising">Outdoor Advertising</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="Designing Services">Designing Services</option>
+            <option value="Print Media">Print Media</option>
+            <option value="Branding & Strategy">Branding & Strategy</option>
+            <option value="Event Promotion">Event Promotion</option>
+          </select>
           
-          <input type="text" name='service' placeholder='Service' />
           </div>
           <div className="desc">
-          <textarea name='message' className='description' type="text" placeholder='Describe Your Project...' />
+          <textarea name='message' className='description' type="text" placeholder='Describe Your Project...' required/>
           <button type='submit'>Enter</button> <span>{result}</span>
           </div>
           </form>

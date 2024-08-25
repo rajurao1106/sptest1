@@ -1,14 +1,12 @@
 import React from 'react'
 import './Portfolio.css'
-import portfolio_heading_img from '../../assets/heading-img.jpg'
-import port_services from '../../assets/img11.jpeg'
-import img3 from '../../assets/img3.webp'
-import img4 from '../../assets/img4.webp'
-import img5 from '../../assets/img5.webp'
-import img6 from '../../assets/img6.webp'
-
-import outdoor_img1 from '../../assets/outdoor-img1.jpg'
-import digital_marketing_img from '../../assets/digital-marketing-img.jpg' 
+import portfolio_heading_img from '../../assets/Portfolio/heading-img.jpg'
+import img3 from '../../assets/Portfolio/img3.webp'
+import img4 from '../../assets/Portfolio/img4.webp'
+import img5 from '../../assets/Portfolio/img5.webp'
+import img6 from '../../assets/Portfolio/img6.webp'
+import outdoor_img1 from '../../assets/Portfolio/outdoor-img1.jpg'
+import digital_marketing_img from '../../assets/Portfolio/digital-marketing-img.jpg' 
 import { Link } from 'react-router-dom'
 
 function Portfolio() {
@@ -110,7 +108,7 @@ function Portfolio() {
       <div className="fort-footer">
             <div className="fort-footer-con">
             <h1>Ready to elevate your brand </h1>
-            <Link to={"/sptest1/contact"}><button>Let's Take Flight</button></Link>
+            <Link to={"/contact"}><button>Let's Take Flight</button></Link>
             {/* <div className="fort-share-btn">
             <button>Instagram</button>
             <button>Facebook</button>

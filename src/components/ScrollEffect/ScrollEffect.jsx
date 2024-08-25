@@ -1,8 +1,8 @@
 import React from 'react'
 import './ScrollEffect.css'
-import scroll_img1 from '../../assets/scroll-digitalmarketing.jpg'
-import scroll_img2 from '../../assets/scroll-banner2.jpg'
-import scroll_img3 from '../../assets/scroll-banner.jpg'
+import scroll_img1 from '../../assets/ScrollEffect/scroll-digitalmarketing.jpg'
+import scroll_img2 from '../../assets/ScrollEffect/scroll-banner2.jpg'
+import scroll_img3 from '../../assets/ScrollEffect/scroll-banner.jpg'
 
 import { Link } from 'react-router-dom'
 
@@ -16,7 +16,7 @@ function ScrollEffect() {
             <h1>Your brand's success is our mission</h1>
             <p>SP Advertising is an independent, creatively driven full services marketing communications agency born and groomed in Raipur Chhattisgarh, providing services across India.  </p>
             </div>
-            <Link to={"/sptest1/Choose-Us"}><button>Read More</button></Link>
+            <Link to={"/Choose-Us"}><button>Read More</button></Link>
         </div>
       </div>
       <div className='div1'>

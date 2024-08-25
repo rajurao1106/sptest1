@@ -1,12 +1,11 @@
 import React from 'react'
 import './Services.css'
-import outdoor_img1 from '../../assets/outdoor-img1.jpg'
+import outdoor_img1 from '../../assets/Services/OutdoorAdvertising/outdoor-img1.jpg'
 import { Link } from 'react-router-dom'
-import outdoor_img2 from '../../assets/hoarding.jpg'
-import outdoor_img3 from '../../assets/outdoor-img3.jpg'
-import showcase1 from '../../assets/showcase1.webp'
-import showcase2 from '../../assets/showcase2.webp'
-import gantry from '../../assets/gantry.jpg'
+import outdoor_img2 from '../../assets/Services/OutdoorAdvertising/hoarding.jpg'
+import showcase1 from '../../assets/Services/OutdoorAdvertising/showcase1.webp'
+import showcase2 from '../../assets/Services/OutdoorAdvertising/showcase2.webp'
+import gantry from '../../assets/Services/OutdoorAdvertising/gantry.jpg'
 
 function OutdoorAdvertising() {
   return (
@@ -65,7 +64,7 @@ function OutdoorAdvertising() {
         
       
       </div>
-      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

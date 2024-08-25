@@ -8,6 +8,7 @@
 }
 .whatwedo h1{
     color:#265AA5;
+    padding-bottom: 3rem;
 }
 .whatwedo-con{
     width: 90%;
@@ -79,5 +80,9 @@
     .points{
         padding-left: 20px;
       
+    }
+    .whatwedo h1{
+        font-size: 30px;
+        padding-bottom: 1rem;
     }
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import './Services.css'
-import brand from '../../assets/brand.jpg'
+import brand from '../../assets/Services/BrandingStrategy/brand.jpg'
 import { Link } from 'react-router-dom'
-import Communications_Strategy from '../../assets/Communications-Strategy.jpg'
-import Creative_Campaigns from '../../assets/Creative_Campaigns.jpg'
-import Corporate from '../../assets/Corporate.jpg'
+import Communications_Strategy from '../../assets/Services/BrandingStrategy/Communications-Strategy.jpg'
+import Creative_Campaigns from '../../assets/Services/BrandingStrategy/Creative_Campaigns.jpg'
+import Corporate from '../../assets/Services/BrandingStrategy/Corporate.jpg'
 
 function BrandingStrategy() {
   return (
@@ -50,7 +50,7 @@ function BrandingStrategy() {
         
       
       </div>
-    <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+    <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

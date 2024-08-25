@@ -1,12 +1,11 @@
 import React from 'react'
 import './Services.css'
 import { Link } from 'react-router-dom'
-import digital_marketing_img from '../../assets/digital-marketing-img.jpg' 
-import digital_marketing_img1 from '../../assets/digital-marketing-img1.jpg' 
-import digital_marketing_img2 from '../../assets/digital-marketing-img2.jpg' 
-import digital_marketing_img3 from '../../assets/digital-marketing-img3.jpg' 
-import digital_marketing_img4 from '../../assets/digital-marketing-img4.jpg' 
-
+import digital_marketing_img from '../../assets/Services/DigitalMarketing/digital-marketing-img.jpg' 
+import digital_marketing_img1 from '../../assets/Services/DigitalMarketing/digital-marketing-img1.jpg' 
+import digital_marketing_img2 from '../../assets/Services/DigitalMarketing/digital-marketing-img2.jpg' 
+import digital_marketing_img3 from '../../assets/Services/DigitalMarketing/digital-marketing-img3.jpg' 
+import digital_marketing_img4 from '../../assets/Services/DigitalMarketing/digital-marketing-img4.jpg' 
 
 function DigitalMarketing() {
   return (
@@ -26,7 +25,7 @@ function DigitalMarketing() {
         
           <div className='topic-left' data-aos="fade-right">
             <h1>Website Development</h1>
-            <p>SEO improves a website’s visibility in search engines through keyword optimization, content enhancement, and backlink building, aiming to increase organic traffic and rank higher in search results.</p>
+            <p>Create stunning, responsive websites tailored to your needs. Our expert web development services ensure a seamless user experience with modern design, robust functionality, and optimized performance.</p>
           </div>
           <img src={digital_marketing_img1} alt="" data-aos="zoom-in"/>
         </div>
@@ -37,7 +36,7 @@ function DigitalMarketing() {
         <img src={digital_marketing_img2} alt="" data-aos="zoom-in"/>
           <div className='topic-left' data-aos="fade-right">
             <h1>SEO / SEM Optimization</h1>
-            <p> Hoardings are large, static advertising boards or structures typically placed in prominent locations like construction sites, along roadsides, or near shopping centers. They serve as a platform for high-impact advertising campaigns and are designed to catch the attention of passing pedestrians and drivers. </p>
+            <p>SEO improves a website’s visibility in search engines through keyword optimization, content enhancement, and backlink building, aiming to increase organic traffic and rank higher in search results.</p>
           </div>
         </div>
       
@@ -64,7 +63,7 @@ function DigitalMarketing() {
         
       
       </div>
-      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

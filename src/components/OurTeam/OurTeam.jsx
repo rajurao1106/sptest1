@@ -1,19 +1,12 @@
 import React from 'react'
 import './OurTeam.css'
-import about_img1 from '../../assets/about-img1.jpeg'
-import facebook from '../../assets/facebook.png'
-import instagram from '../../assets/instagram.png'
-import linkedin from '../../assets/linkedin.png'
-import facebook_white from '../../assets/social_white.png'
-import instagram_white from '../../assets/instagram_white.png'
-import linkedin_white from '../../assets/linkedin_white.png'
-import manu from '../../assets/manu.jpg'
-import raju from '../../assets/raju.jpg'
-import male from '../../assets/male.png'
-import female from '../../assets/female.png'
-import sushant_sir from '../../assets/sushant-sir.jpg'
-import piyush_sir from '../../assets/piyush-sir.jpg'
-import shreeya_mam from '../../assets/shreeya-mam.jpg'
+import manu from '../../assets/OurTeam/manu.jpg'
+import raju from '../../assets/OurTeam/raju.jpg'
+import male from '../../assets/OurTeam/male.png'
+import female from '../../assets/OurTeam/female.png'
+import sushant_sir from '../../assets/OurTeam/sushant-sir.jpg'
+import piyush_sir from '../../assets/OurTeam/piyush-sir.jpg'
+import shreeya_mam from '../../assets/OurTeam/shreeya-mam.jpg'
 
 function OurTeam() {
   return (
@@ -23,11 +16,11 @@ function OurTeam() {
         <div className="head1-con">
           <div className="head-left" data-aos="fade-right">
             
-            <h2>Sushant paretkar</h2>
+            <h2>Sushant Paretkar</h2>
             <p>Partner</p>
           </div>
           <div className="head-right"> 
-            <img src={sushant_sir} alt="" />
+            <img src={sushant_sir} alt="" data-aos="fade"/>
           </div>
         </div>
         
@@ -38,7 +31,7 @@ function OurTeam() {
             <p>Partner</p>
           </div>
           <div className="head-right">
-            <img src={male} alt="" />
+            <img src={male} alt="" data-aos="fade"/>
           </div>
         </div>
 
@@ -49,7 +42,7 @@ function OurTeam() {
             <p>Partner</p>
           </div>
           <div className="head-right">
-            <img src={piyush_sir} alt="" />
+            <img src={piyush_sir} alt="" data-aos="fade"/>
           </div>
         </div>
         </div>

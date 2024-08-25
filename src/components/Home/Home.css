@@ -64,14 +64,6 @@
     background-color: #265AA5;
     color: white;
 }
-.web-details h1 img{
-    width: 3rem;
-    transform: rotate(45deg);
-    z-index: -2;
-    top: 10px;
-    position: relative;
-    border-radius: 50px;
-}
 .f-image img{
     position: absolute;
     z-index: -1;
@@ -84,12 +76,17 @@
     100%   { transform: translate(0, -0px); }    
 }
 .home-image{
-    width: 50vw;
+    width:700px;
     animation: floating 8s ease-in-out infinite;
     border-radius: 2rem;
 }
 
 
+@media (max-width:1100px) {
+    .home-image{
+        width: 400px;
+    }
+}
 
 @media (max-width:768px) {
     .home-con{
@@ -107,10 +104,13 @@
     .f-image img{
         width: 90vw;
     }
-    .web-details h1{
-        font-family: "Calibri", Times, serif;
-    font-weight: 700;
-    font-size: 40px;
+    .web-details{
+        text-align: center;
     }
-    
+    .web-details h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 40px;
+    }
 }
