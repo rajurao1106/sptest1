@@ -47,7 +47,7 @@ function Blog() {
                     <img src={outdoor_img1} alt="" />
                     <h3>Capturing Attention On-the-Go: The Power of Outdoor Advertising in Public Spaces</h3>
                 </div>
-                <Link to={"/Outdoor-Advertising"}><p>Read More <div className="p-dot"></div></p></Link>
+                <Link to={"/sptest1/Outdoor-Advertising"}><p>Read More <div className="p-dot"></div></p></Link>
                 
             </div>
             <div className="article-box">
@@ -55,35 +55,35 @@ function Blog() {
                     <img src={digital_marketing_img} alt="" />
                     <h3>Connecting Brands with Audiences: Digital Marketing Strategies for Enhanced Engagement</h3>
                 </div>
-                <Link to={"/Digital-Marketing"} ><p>Read More <div className="p-dot"></div></p></Link>
+                <Link to={"/sptest1/Digital-Marketing"} ><p>Read More <div className="p-dot"></div></p></Link>
             </div>
             <div  className="article-box">
                 <div className="img-text">
                     <img src={img3} alt="" />
                     <h3>Visual Storytelling: Designing Services for Enhanced Brand Identity and User Experience</h3>
                 </div>
-                <Link to={"/Designing-Services"}><p>Read More <div className="p-dot"></div></p></Link>
+                <Link to={"/sptest1/Designing-Services"}><p>Read More <div className="p-dot"></div></p></Link>
             </div>
             <div  className="article-box">
                 <div className="img-text">
                     <img src={img5} alt="" />
                     <h3>Crafting Unique Brand Identities: Strategic Planning for Long-Term Success</h3>
                 </div>
-                <Link to={"/Print-Media"}><p>Read More <div className="p-dot"></div></p></Link>
+                <Link to={"/sptest1/Print-Media"}><p>Read More <div className="p-dot"></div></p></Link>
             </div>
             <div  className="article-box">
                 <div className="img-text">
                     <img src={img4} alt="" />
                     <h3>Tangible Impact: The Enduring Power of Print Media in Advertising</h3>
                 </div>
-                <Link to={"/Branding-Strategy"}><p>Read More <div className="p-dot"></div></p></Link>
+                <Link to={"/sptest1/Branding-Strategy"}><p>Read More <div className="p-dot"></div></p></Link>
             </div>
             <div  className="article-box">
                 <div className="img-text">
                     <img src={img6} alt="" />
                     <h3>Driving Engagement and Attendance: Effective Strategies for Event Promotion</h3>
                 </div>
-                <Link to={"/Event-Promotion"}><p>Read More <div className="p-dot"></div></p></Link>
+                <Link to={"/sptest1/Event-Promotion"}><p>Read More <div className="p-dot"></div></p></Link>
             </div>
         </div>
       </div>
