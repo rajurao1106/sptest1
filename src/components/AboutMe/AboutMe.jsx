@@ -19,7 +19,7 @@ function AboutMe() {
                 <h1>WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE!</h1>
                 <p>"We’re a team of strategic working with largest brands, We believe that progress only happens when you refused to play things safe."</p>
               
-                {/* <Link to={"/sptest1/welcome-page"}><button>READ MORE</button></Link> */}
+                {/* <Link to={"/welcome-page"}><button>READ MORE</button></Link> */}
             </div>
         </div>
       </div>

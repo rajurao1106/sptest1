@@ -29,23 +29,23 @@ function App() {
     <ScrollToTop />
     <Navbar/>
       <Routes>
-          <Route path="/sptest1/sptest1/"element={<Home/>} />
-          <Route path="/sptest1/about" element={<AboutMe/>}/>
-          <Route path="/sptest1/Choose-Us" element={<ChooseUs/>}/>
-          <Route path="/sptest1/Contact" element={<Contact/>}/>
-          <Route path="/sptest1/Footer"element={<Footer/>}/>
-          <Route path="/sptest1/ScrollEffect"element={<ScrollEffect/>}/>
-          <Route path="/sptest1/Showcase"element={<Showcase/>}/>
-          <Route path="/sptest1/Welcome-Page"element={<WelcomePage/>}/>
-          <Route path="/sptest1/services"element={<WhatWeDo/>}/>
-          <Route path="/sptest1/Outdoor-Advertising"element={<OutdoorAdvertising/>}/>
-          <Route path="/sptest1/Digital-Marketing"element={<DigitalMarketing/>}/>
-          <Route path="/sptest1/Designing-Services"element={<DesigningServices/>}/>
-          <Route path="/sptest1/Print-Media"element={<PrintMedia/>}/>
-          <Route path="/sptest1/Branding-Strategy"element={<BrandingStrategy/>}/>
-          <Route path="/sptest1/Event-Promotion"element={<EventPromotion/>}/>
-          <Route path="/sptest1/Blog"element={<Blog/>}/>
-          <Route path="/sptest1/Portfolio"element={<Portfolio/>}/>
+          <Route path="/"element={<Home/>} />
+          <Route path="/about" element={<AboutMe/>}/>
+          <Route path="/Choose-Us" element={<ChooseUs/>}/>
+          <Route path="/Contact" element={<Contact/>}/>
+          <Route path="/Footer"element={<Footer/>}/>
+          <Route path="/ScrollEffect"element={<ScrollEffect/>}/>
+          <Route path="/Showcase"element={<Showcase/>}/>
+          <Route path="/Welcome-Page"element={<WelcomePage/>}/>
+          <Route path="/services"element={<WhatWeDo/>}/>
+          <Route path="/Outdoor-Advertising"element={<OutdoorAdvertising/>}/>
+          <Route path="/Digital-Marketing"element={<DigitalMarketing/>}/>
+          <Route path="/Designing-Services"element={<DesigningServices/>}/>
+          <Route path="/Print-Media"element={<PrintMedia/>}/>
+          <Route path="/Branding-Strategy"element={<BrandingStrategy/>}/>
+          <Route path="/Event-Promotion"element={<EventPromotion/>}/>
+          <Route path="/Blog"element={<Blog/>}/>
+          <Route path="/Portfolio"element={<Portfolio/>}/>
       </Routes>
       <Footer/>
     </Router>

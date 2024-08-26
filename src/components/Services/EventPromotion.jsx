@@ -40,7 +40,7 @@ function EventPromotion() {
       
       
       </div>
-      <Link to={"/sptest1/Contact"}><button>Promote Now</button></Link>
+      <Link to={"/Contact"}><button>Promote Now</button></Link>
     </div>
   </div>
   )

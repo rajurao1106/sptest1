@@ -108,7 +108,7 @@ function Portfolio() {
       <div className="fort-footer">
             <div className="fort-footer-con">
             <h1>Ready to elevate your brand </h1>
-            <Link to={"/sptest1/contact"}><button>Let's Take Flight</button></Link>
+            <Link to={"/contact"}><button>Let's Take Flight</button></Link>
             {/* <div className="fort-share-btn">
             <button>Instagram</button>
             <button>Facebook</button>
