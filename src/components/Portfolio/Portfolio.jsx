@@ -12,98 +12,105 @@ import { Link } from 'react-router-dom'
 function Portfolio() {
   return (
     <div className='portfolio'>
+         <div className="img-back">
          <div className="portfolio-heading">
             <div className="port-text">
-                <h1>WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE!</h1>
-                <p>SP Advertising is an independent, creatively driven full services marketing communications agency born and groomed in Raipur Chhattisgarh, providing services across India.</p>
+            <h3>Portfolio</h3>
+                <h1 data-aos="fade-up" data-aos-duration="500">WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE!</h1>
+                <p data-aos="fade-up" data-aos-duration="1000">SP Advertising is an independent, creatively driven full services marketing communications agency born and groomed in Raipur Chhattisgarh, providing services across India.</p>
             </div>
-            <img src={portfolio_heading_img} alt="" />
+            
         </div>
+        <img src={portfolio_heading_img} alt="" data-aos="fade-up" data-aos-duration="1500"/>
+         </div>
 
       <div className="portfolio-con">
-
-      <div className="port-services">
-        <div className="port-details">
-                <h1>Outdoor Advertising</h1>
-                <ul>
-                <li><p>Mobile Hoarding</p></li>
-                <li><p>Hoardings</p></li>
-                <li><p>Gantry</p></li>
-                <li><p>Pole Kiosk</p></li>
-                </ul>
-            </div>
+        <div className="port-services">
             <div className="port-img">
+            <div className='ul'>
+            <p>Mobile Hoarding</p>
+            <p>Hoardings</p>
+            <p>Gantry</p>
+            <p>Pole Kiosk</p>
+                </div>
                 <img src={outdoor_img1} alt="" />
             </div>
-        </div>
-        <div className="port-services1">
-        <div className="port-details">
-                <h1>Digital Marketing</h1>
-                <ul>
-                <li><p>Website Development</p></li>
-                <li><p>SEO / SEM Optimization</p></li>
-                <li><p>Social Media Marketing</p></li>
-                <li><p>Application Development</p></li>
-                </ul>
+            <div className="port-details">
+                <h3>Outdoor Advertising</h3>
             </div>
+        </div>
+
+        <div className="port-services">
             <div className="port-img">
+            <div className='ul'>
+            <p>Website Development</p>
+                <p>SEO / SEM Optimization</p>
+                <p>Social Media Marketing </p>
+                <p>Application Development</p>
+                </div>
                 <img src={digital_marketing_img} alt="" />
             </div>
-        </div>
-        <div className="port-services">
-        <div className="port-details">
-                <h1>Designing Services</h1>
-                <ul>
-                <li><p>Packaging</p></li>
-                <li><p>Creative Concepts</p></li>
-                <li><p>Design & Artwork</p></li>
-                </ul>
+            <div className="port-details">
+                <h3>Digital Marketing</h3>
             </div>
+        </div>
+
+        <div className="port-services">
             <div className="port-img">
+                <div className='ul'>
+                <p>Packaging </p>
+                <p>Creative Concepts</p>
+                <p>Design & Artwork </p>
+                </div>
                 <img src={img3} alt="" />
             </div>
-        </div>
-        <div className="port-services1">
-        <div className="port-details">
-                <h1>Print Media</h1>
-                <ul>
-                <li><p>News paper ads</p></li>
-                <li><p>Brochure</p></li>
-                <li><p>Pamphlet</p></li>
-                <li><p>In-shop Branding</p></li>
-                </ul>
-            </div>
-            <div className="port-img">
-                <img src={img5} alt="" />
+            <div className="port-details">
+                <h3>Designing Services</h3>
             </div>
         </div>
+
         <div className="port-services">
-        <div className="port-details">
-                <h1>Branding & Strategy</h1>
-                <ul>
-                <li><p>Communications Strategy</p></li>
-                <li><p>Creative 360 Campaigns</p></li>
-                <li><p>Corporate and brand Identity</p></li>
-                </ul>
-            </div>
             <div className="port-img">
+                <div className='ul'>
+                <p>News paper ads </p>
+                <p>Brochure</p>
+                <p>Pamphlet</p>
+                <p>In-shop Branding</p>
+                </div>
                 <img src={img4} alt="" />
             </div>
-        </div>
-        <div className="port-services1">
-        <div className="port-details">
-                <h1>Event Promotion</h1>
-                <ul>
-                <li><p>Corporate Event</p></li>
-                <li><p>Mall Activation</p></li>
-                </ul>
+            <div className="port-details">
+                <h3>Print Media</h3>
             </div>
+        </div>
+
+        <div className="port-services">
             <div className="port-img">
+                <div className='ul'>
+                    <p>Communications Strategy</p>
+                    <p>Creative 360 Campaigns</p>
+                    <p>Corporate and brand Identity</p>
+                </div>
+                <img src={img5} alt="" />
+            </div>
+            <div className="port-details">
+                <h3>Branding & Strategy</h3>
+            </div>
+        </div>
+
+        <div className="port-services">
+            <div className="port-img">
+                <div className='ul'>
+                    <p>Corporate Event</p>
+                    <p>Mall Activation</p>
+                </div>
                 <img src={img6} alt="" />
             </div>
+            <div className="port-details">
+                <h3>Event Promotion</h3>
+            </div>
         </div>
-        
-        
+      
       </div>
       <div className="fort-footer">
             <div className="fort-footer-con">

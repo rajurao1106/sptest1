@@ -13,11 +13,11 @@ function AboutMe() {
         <br /><br />
       <div className="about-me-con">
         <div className="about-me-box">
-            <div className="about-details" data-aos="fade-up">
+            <div className="about-details">
             
-                <h3>ABOUT US</h3>
-                <h1>WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE!</h1>
-                <p>"We’re a team of strategic working with largest brands, We believe that progress only happens when you refused to play things safe."</p>
+                <h3>About Us</h3>
+                <h1 data-aos="fade-up" data-aos-duration="500">WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE!</h1>
+                <p data-aos="fade-up" data-aos-duration="1000">"We’re a team of strategic working with largest brands, We believe that progress only happens when you refused to play things safe."</p>
               
                 {/* <Link to={"/welcome-page"}><button>READ MORE</button></Link> */}
             </div>
@@ -25,9 +25,9 @@ function AboutMe() {
       </div>
       <div className="team-image">
         <div className="team-image-con">
-        <img className='team-1' src={team_img1} alt="" data-aos="fade-up" data-aos-duration="1000"/>
-        <img className='team-2' src={team_img2} alt="" data-aos="fade-up" data-aos-duration="1000"/>
-        <img className='team-3' src={team_img3} alt="" data-aos="fade-up" data-aos-duration="1000"/>
+        <img className='team-1' src={team_img1} alt="" data-aos="fade-up" data-aos-duration="2000"/>
+        <img className='team-2' src={team_img2} alt="" data-aos="fade-up" data-aos-duration="2000"/>
+        <img className='team-3' src={team_img3} alt="" data-aos="fade-up" data-aos-duration="2000"/>
           
         </div>
       </div>

@@ -13,22 +13,27 @@ import { Link } from 'react-router-dom'
 function Blog() {
   return (
     <div className='blog'>
-      <div className="blog-con">
         <div className="new-update">
-            
-            <div className="headline" data-aos="fade-right">
+            <div className='headline-up'>
+                <div className="blog-item">
+                <h3 >Blog</h3>
+                <div className="headline">
                 <div className="headline-con">
-                <h1>The Significance of Branding in Digital Marketing</h1>
-                <h3>Exploring how a strong brand identity can impact
+                <h1 data-aos="fade-up" data-aos-duration="500">The Significance of Branding in Digital Marketing</h1>
+                <p data-aos="fade-up" data-aos-duration="1000">Exploring how a strong brand identity can impact
                 your digital marketing efforts and overall online 
                 presence. Discussing the significance of content marketing
-                and providing tips on creating and distributing high-quality content.</h3>
+                and providing tips on creating and distributing high-quality content.</p>
+                </div>
+                </div>
+            <div className="update-image">
+                <img src={update_image} alt="" data-aos="fade-up" data-aos-duration="1500"/>
+            </div>
                 </div>
             </div>
-            <div className="update-image">
-                <img src={update_image} alt="" data-aos="zoom-in"/>
-            </div>
         </div>
+      <div className="blog-con">
+        
       </div>
       <div className="articles">
         <div className="article-search">

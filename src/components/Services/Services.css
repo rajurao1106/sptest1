@@ -80,6 +80,9 @@
 .topic-left{
     width: 30rem;
 }
+.topic-left p{
+    color: gray;
+}
 .topic-align1 img{
     width: 30vw;
 

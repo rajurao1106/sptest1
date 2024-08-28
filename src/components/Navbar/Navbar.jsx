@@ -27,7 +27,7 @@ function Navbar() {
         <ul className='navbar-menu'>
 
         <Link to={"/"} >Home</Link>
-        <Link to={"/about"}>About Us</Link>
+        <Link to={"/about"}>About</Link>
 
         <div className="services">
         <div className="up-down">
@@ -44,8 +44,8 @@ function Navbar() {
         </ul>
         </div>
         <Link to={"/Welcome-page"}  >Clients</Link>
+        <Link to={"/Portfolio"}>Portfolio</Link>
         <Link to={"/Blog"}>Blog</Link>
-        {/* <Link to={"/Portfolio"}>Portfolio</Link> */}
         </ul>
       </div>
       <div className="cart">
@@ -68,6 +68,7 @@ function Navbar() {
 
       <Link to={"/Welcome-page"}><MenuItem className='menubox'>Client</MenuItem></Link>
       <Link to={"/Blog"}><MenuItem className='menubox'>Blog</MenuItem></Link>
+      <Link to={"/Portfolio"}><MenuItem className='menubox'>Portfolio</MenuItem></Link>
     </Menu>
       </div>
       </div>
