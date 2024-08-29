@@ -44,7 +44,7 @@ function Navbar() {
         </ul>
         </div>
         <Link to={"/Welcome-page"}  >Clients</Link>
-        <Link to={"/Portfolio"}>Portfolio</Link>
+        {/* <Link to={"/Portfolio"}>Portfolio</Link> */}
         <Link to={"/Blog"}>Blog</Link>
         </ul>
       </div>
