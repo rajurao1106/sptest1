@@ -7,13 +7,36 @@ import female from '../../assets/OurTeam/female.png'
 import sushant_sir from '../../assets/OurTeam/sushant-sir.jpg'
 import piyush_sir from '../../assets/OurTeam/piyush-sir.jpg'
 import shreeya_mam from '../../assets/OurTeam/shreeya-mam.jpg'
+import vision from '../../assets/OurTeam/vision.jpg'
+import promise from '../../assets/OurTeam/promise.jpg'
 
 function OurTeam() {
   return (
       <div className="our-team-con">
+        <div className="our-images">
+        <div className="our-mission" >
+        
+        <div className='our-mission-con' data-aos="fade-up" data-aos-duration="500">
+        <h1>Our Mission</h1>
+        <p>To turn your brand vision into reality with innovation and excellence.</p>
+        </div>
+        <img src={vision} alt="" data-aos="fade-up" data-aos-duration="500"/>
+        </div>
 
+        <div className="our-mission1" >
+        <img src={promise} alt="" data-aos="fade-up" data-aos-duration="500"/>
+        <div className='our-mission-con' data-aos="fade-up" data-aos-duration="500">
+        <h1>Our Promise</h1>
+        <p>Quality, creativity, and results. Your success is our success.</p>
+        </div>
+        
+        </div>
+        </div>
+        
+<h2 className='vision' data-aos="fade-up" data-aos-duration="1500">Meet the Visionaries Behind Your Success</h2>
         <div className="head-box">
         <div className="head1-con">
+          
           <div className="head-left" data-aos="fade-right">
             
             <h2>Sushant Paretkar</h2>
@@ -194,6 +217,7 @@ Crafting websites with the superhero speed as he loves marvels and avengers. He 
           </div>
 
         </div>
+        
         <br /><br /><br />
        </div>
   )

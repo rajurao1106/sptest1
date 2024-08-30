@@ -31,7 +31,7 @@ function Footer() {
           <h2>Pages</h2>
           <div className='pages'>
           <Link to={"/"}><li>Home</li></Link>
-          <Link to={"/about"}><li>About Us</li></Link>
+          <Link to={"/About"}><li>About</li></Link>
           <Link to={"/Welcome-page"}><li>Clients</li></Link>
           <Link to={"/Contact"}><li>Contact Us</li></Link>
           <Link to={"/Blog"}><li>Blog</li></Link>

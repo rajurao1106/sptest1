@@ -20,10 +20,10 @@ function Blog() {
                 <div className="headline">
                 <div className="headline-con">
                 <h1 data-aos="fade-up" data-aos-duration="500">The Significance of Branding in Digital Marketing</h1>
-                <p data-aos="fade-up" data-aos-duration="1000">Exploring how a strong brand identity can impact
+                <p data-aos="fade-up" data-aos-duration="1000">"Exploring how a strong brand identity can impact
                 your digital marketing efforts and overall online 
                 presence. Discussing the significance of content marketing
-                and providing tips on creating and distributing high-quality content.</p>
+                and providing tips on creating and distributing high-quality content."</p>
                 </div>
                 </div>
             <div className="update-image">
@@ -52,7 +52,7 @@ function Blog() {
                     <img src={outdoor_img1} alt="" />
                     <h3>Capturing Attention On-the-Go: The Power of Outdoor Advertising in Public Spaces</h3>
                 </div>
-                <Link to={"/Outdoor-Advertising"}><p>Read More <div className="p-dot"></div></p></Link>
+                <a href='/Outdoor-Advertising'><p>Read More <div className="p-dot"></div></p></a>
                 
             </div>
             <div className="article-box">

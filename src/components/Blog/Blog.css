@@ -77,6 +77,8 @@
 }
 .headline-con p{
     color: white;
+    font-style: italic;
+    
 }
 .articles{
     width: 90%;
@@ -185,7 +187,7 @@ p:hover .p-dot{
         width: 80vw;
     }
     .blog{
-        padding-top: 3rem;
+        padding-top: 2rem;
     }
     .headline-up{
         height: 25rem;
@@ -194,7 +196,7 @@ p:hover .p-dot{
         font-size: 25px;
     }
     .headline-con p{
-        font-size: 14px;
+        font-size: 18px;
     }
     .article-box{
         width: 250px;

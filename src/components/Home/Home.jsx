@@ -17,8 +17,8 @@ function Home() {
       <div className="home-con">
       
         <div className="web-details" data-aos="fade-right" >
-            <h1>WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE! </h1><br />
-            <p>Elevate your business with our expert strategies, innovative solutions, and dedicated support. Achieve growth, success, and excellence. Partner with us and thrive in today's competitive market!</p>
+            <h1>Step Up Your Game and Transform Your Brand’s Potential!</h1><br />
+            <p>Welcome to SP ADVERTISING, where your vision comes to life with our powerful marketing solutions.We offer a one-stop solution for all your advertising needs.</p>
             <div className="web-btn">
                 
             <Link to={"/services"}><button>Browse Services</button></Link>

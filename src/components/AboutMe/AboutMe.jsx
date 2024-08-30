@@ -16,8 +16,9 @@ function AboutMe() {
             <div className="about-details">
             
                 <h3>About Us</h3>
-                <h1 data-aos="fade-up" data-aos-duration="500">WE'LL HELP YOUR BUSINESS TO GET ON A NEW STAGE!</h1>
-                <p data-aos="fade-up" data-aos-duration="1000">"We’re a team of strategic working with largest brands, We believe that progress only happens when you refused to play things safe."</p>
+                {/* <h1 data-aos="fade-up" data-aos-duration="500">Elevating Your Business to New Height With Us</h1> */}
+                <p data-aos="fade-up" data-aos-duration="1000">"We’re not just a marketing agency, we’re your partners in growth. We believe in transforming your vision into reality.
+                "</p>
               
                 {/* <Link to={"/welcome-page"}><button>READ MORE</button></Link> */}
             </div>

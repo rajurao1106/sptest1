@@ -23,20 +23,28 @@
 }
 .menu ul{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     font-family: systeem-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 400;
+  font-weight: 700;
   font-size: 17px;
   font-style: normal;
 }
-
-.menu a{
+.active{
+    background-color: black;
+    color: white;
+}
+/* #home1{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+} */
+.menu p a{
     text-decoration: none;
-    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
 }
-.menu a:hover{
-    color:#265AA5;
-}
+
 .cart{
     display: flex;
     justify-content: center;
@@ -59,7 +67,7 @@
 }
 .navbar-menu .active{
     padding-bottom: 2px;
-    border-bottom: #49557e 2px solid;
+    
 }
 .services .up-down{
     display: flex;
@@ -83,8 +91,19 @@
     padding-top: 1rem;
     border: 1px solid #265AA5;
     position: absolute;
+    text-decoration: none;
     overflow: hidden;
 }
+ul p{
+    padding: 5px;
+    border-radius: 5px;
+    
+    font-weight: 600;
+}
+/* ul p:hover{
+    background-color: black;
+    color: white;
+} */
 .services ul li{
     width: 100%;
     height: 2rem;

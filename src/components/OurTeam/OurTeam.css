@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 11rem;
+    text-align: center;
 }
 .team-headline{
     width: 90%;
@@ -174,8 +174,10 @@
     font-size: 18px;
     font-weight: 500;
 }
-.name h2{
-    color: #265AA2;
+.vision{
+    color: orange;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .head-box{
     width: 90%;
@@ -185,10 +187,67 @@
     align-items: center;
     gap: 100px;
 }
+.our-mission{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.our-mission h1{
+    color: #265AA2;
+}
+.our-mission p{
+    font-weight: 700;
+    color: gray;
+}
+.our-mission img{
+    
+    width: 30rem;
+}
+.our-mission1{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.our-mission1 h1{
+    color: #265AA2;
+}
+.our-mission1 p{
+    font-weight: 700;
+    color: gray;
+}
+.our-mission1 img{
+    border-radius: 10px;
+    width: 30rem;
+}
+.our-images{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
 
-
+@media (max-width:1124px){
+    .our-mission{
+        margin-top: 10rem;
+    }
+    .our-mission img{
+        width: 20rem;
+    }
+    .our-mission1 img{
+        width: 20rem;
+    }
+}
 
 @media (max-width:768px) {
+    .our-mission{
+        flex-direction: column-reverse;
+    }
+    .our-mission1{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .our-mission1 img{
+        width: 20rem;
+    }
     .head-box{
         flex-direction: column;
     }
@@ -205,9 +264,12 @@
     .our-team-con{
         padding-top: 10rem;
     }
+    .our-team-con{
+        padding-top: 15rem;
+    }
 }
 @media (max-width:470px) {
     .our-team-con{
-        padding-top: 20rem;
+        padding-top: 25rem;
     }
 }
