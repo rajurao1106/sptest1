@@ -16,16 +16,16 @@ function OurTeam() {
         <div className="our-images">
         <div className="our-mission" >
         
-        <div className='our-mission-con' data-aos="fade-up" data-aos-duration="500">
+        <div className='our-mission-con' data-aos="fade-up" >
         <h1>Our Mission</h1>
         <p>To turn your brand vision into reality with innovation and excellence.</p>
         </div>
-        <img src={vision} alt="" data-aos="fade-up" data-aos-duration="500"/>
+        <img src={vision} alt="" data-aos="fade-up" />
         </div>
 
         <div className="our-mission1" >
-        <img src={promise} alt="" data-aos="fade-up" data-aos-duration="500"/>
-        <div className='our-mission-con' data-aos="fade-up" data-aos-duration="500">
+        <img src={promise} alt="" data-aos="fade-up" />
+        <div className='our-mission-con' data-aos="fade-up" >
         <h1>Our Promise</h1>
         <p>Quality, creativity, and results. Your success is our success.</p>
         </div>
@@ -33,7 +33,7 @@ function OurTeam() {
         </div>
         </div>
         
-<h2 className='vision' data-aos="fade-up" data-aos-duration="1500">Meet the Visionaries Behind Your Success</h2>
+<h2 className='vision' data-aos="fade-up" >Meet the Visionaries Behind Your Success</h2>
         <div className="head-box">
         <div className="head1-con">
           

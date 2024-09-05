@@ -12,7 +12,7 @@ import Navbar from '../Navbar/Navbar'
 function Home() {
   return (
     <div>
-      <Navbar/>
+      
       <div className='home' id='home'>
       <div className="home-con">
       
@@ -35,8 +35,7 @@ function Home() {
         </div>
       </div>
     </div>
-    <Showcase/>
-    <WhatWeDo/>
+    
     </div>
   )
 }

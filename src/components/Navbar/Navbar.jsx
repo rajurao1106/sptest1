@@ -22,38 +22,38 @@ function Navbar() {
   return (
     <div className='navbar' >
 
-      <a className='watsapp' aria-label="Chat on WhatsAp" href="https://wa.me/918085354646"><img src={whatsapp} alt="" /></a>
+      <a className='watsapp' aria-label="Chat on WhatsAp" to="https://wa.me/918085354646"><img src={whatsapp} alt="" /></a>
       <div className="navbar-con">
         
-      <div className="logo"><a href='/' onClick={()=>setMenu("Home")}><img src={logo} alt="" /></a></div>
+      <div className="logo"><Link to={'/'} onClick={()=>setMenu("Home")}><img src={logo} alt="" /></Link></div>
       <div className="menu">
         <ul className='navbar-menu'>
-
-        <p><a href='/' id='home1' onClick={()=>setMenu("Home")} className={menu==="Home"?"active":""}>Home</a></p>
-         <p><a href='/About' onClick={()=>setMenu("About")} className={menu==="About"?"active":""}>
-         About</a></p>
+       
+      <Link to={'/'} onClick={()=>setMenu("Home")} className={menu==="Home"?"active":"deactive"}><p>Home</p></Link>
+      
+      <Link to={'/About'} onClick={()=>setMenu("About")} className={menu==="About"?"active":"deactive"}><p>About</p></Link>
 
         <div className="services">
         <div className="up-down">
-        <div ><p className={menu==="Services"?"active":""}>Services</p></div>
+        <div ><p className={menu==="Services"?"active":"deactive"}>Services</p></div>
         <img src={up_down} alt="" />
         </div>
         <ul>
-          <a href='/Outdoor-Advertising'><li onClick={()=>setMenu("Services")} >Outdoor Advertising</li></a>
-          <a href='/Digital-Marketing'><li onClick={()=>setMenu("Services")}>Digital Marketing</li></a>
-          <a href='/Designing-Services'><li onClick={()=>setMenu("Services")}>Designing Services</li></a>
-          <a href='/Print-Media'><li onClick={()=>setMenu("Services")}>Print Media</li></a>
-          <a href='/Branding-Strategy'><li onClick={()=>setMenu("Services")}>Branding & Strategy</li></a>
-          <a href='/Event-Promotion'><li onClick={()=>setMenu("Services")}>Event Promotion</li></a>
+          <Link to={'/Outdoor-Advertising'}><li onClick={()=>setMenu("Services")} >Outdoor Advertising</li></Link>
+          <Link to={'/Digital-Marketing'}><li onClick={()=>setMenu("Services")}>Digital Marketing</li></Link>
+          <Link to={'/Designing-Services'}><li onClick={()=>setMenu("Services")}>Designing Services</li></Link>
+          <Link to={'/Print-Media'}><li onClick={()=>setMenu("Services")}>Print Media</li></Link>
+          <Link to={'/Branding-Strategy'}><li onClick={()=>setMenu("Services")}>Branding & Strategy</li></Link>
+          <Link to={'/Event-Promotion'}><li onClick={()=>setMenu("Services")}>Event Promotion</li></Link>
         </ul>
         </div>
-        <p><a href={"/Welcome-page"} onClick={()=>setMenu("Client")} className={menu==="Client"?"active":""}>Clients</a></p>
-        <p> <a href='/Portfolio' onClick={()=>setMenu("Portfolio")} className={menu==="Portfolio"?"active":""}>Portfolio</a></p>
-        <p> <a href='/Blog' onClick={()=>setMenu("Blog")} className={menu==="Blog"?"active":""}>Blog</a></p>
+        <Link to={"/Welcome-page"} onClick={()=>setMenu("Client")} className={menu==="Client"?"active":"deactive"}><p>Clients</p></Link>
+         <Link to={'/Portfolio'} onClick={()=>setMenu("Portfolio")} className={menu==="Portfolio"?"active":"deactive"}><p>Portfolio</p></Link>
+         <Link to={'/Blog'} onClick={()=>setMenu("Blog")} className={menu==="Blog"?"active":"deactive"}><p>Blog</p></Link>
         </ul>
       </div>
       <div className="cart">
-         <Link to={"/Contact"}><button>Contact Us</button></Link>
+         <Link to={"/Contact"} onClick={()=>setMenu("Contact")} className={menu==="Contact"?"active1":""}><button>Contact Us</button></Link>
       </div>
       <div className="menu-btn">
       <Menu className='menu-con' menuButton={<MenuButton className='btn-menu'><img src={menu_icon} alt="" className='menu-button'/></MenuButton>}>

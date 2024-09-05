@@ -3,8 +3,8 @@ import './Services.css'
 import design from '../../assets/Services/DesigningServices/design.jpg'
 import { Link } from 'react-router-dom'
 import packaging_img from '../../assets/Services/DesigningServices/packaging-img.jpg' 
-import packaging_img1 from '../../assets/Services/DesigningServices/packaging-img2.jpg' 
 import packaging_img2 from '../../assets/Services/DesigningServices/packaging-img3.jpg' 
+import packaging_img1 from '../../assets/Services/DesigningServices/creative-design8.jpg' 
 
 function DesigningServices() {
   return (
@@ -30,8 +30,6 @@ function DesigningServices() {
           <img src={packaging_img} alt="" data-aos="zoom-in"/>
         </div>
         
-      
-    
       <div className="topic-align1">
         <img src={packaging_img1} alt="" data-aos="zoom-in"/>
           <div className='topic-left' data-aos="fade-right">
@@ -40,8 +38,6 @@ function DesigningServices() {
           </div>
         </div>
       
-      
-    
       <div className="topic-align1" id="topic-align2">
         
           <div className='topic-left' data-aos="fade-right">

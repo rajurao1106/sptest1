@@ -35,10 +35,10 @@ function Contact() {
         <div className="contact-box">
         <div className="contact-details-left">
         <h1 className='contact-heading'>Contact Us</h1> <br />
-          <p>Feel free to get in touch with us through any of the following means. Whether you have inquiries, collaboration opportunities, or just want to say hello, we're here to listen</p><br />
-        <h2>Get In Touch</h2><br />
-        <p>+91-8085354646</p><br />
-        <p>spadvertising@live.com</p><br />
+          <p data-aos="fade-up" data-aos-duration="300">Feel free to get in touch with us through any of the following means. Whether you have inquiries, collaboration opportunities, or just want to say hello, we're here to listen</p><br />
+        <h2 data-aos="fade-up" data-aos-duration="500">Get In Touch</h2><br />
+        <p data-aos="fade-up" data-aos-duration="1000">+91-8085354646</p><br />
+        <p data-aos="fade-up" data-aos-duration="1500">spadvertising@live.com</p><br />
         </div>
         <div className="contact-details">
           <form onSubmit={onSubmit} className="contact-details-right">

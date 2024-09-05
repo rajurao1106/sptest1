@@ -82,12 +82,13 @@
 }
 .topic-left p{
     color: gray;
-}
-.topic-align1 img{
-    width: 30vw;
 
     
 }
+.topic-align1 img{
+    width: 30vw;
+}
+
 .topic-align2{
     flex-direction:row;
 }
@@ -128,6 +129,7 @@
         justify-content: center;
         width: 100%;
         text-align: center;
+        gap: 10px;
     }
     .topic-align1 img{
         width: 75vw;
@@ -137,6 +139,11 @@
         text-align: center;
         
     }
-    
-    
+    .topic-left p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .topic-left h1{
+        font-size: 35px;
+    }
 }

@@ -52,7 +52,7 @@ function Blog() {
                     <img src={outdoor_img1} alt="" />
                     <h3>Capturing Attention On-the-Go: The Power of Outdoor Advertising in Public Spaces</h3>
                 </div>
-                <a href='/Outdoor-Advertising'><p>Read More <div className="p-dot"></div></p></a>
+                <Link to={'/Outdoor-Advertising'}><p>Read More <div className="p-dot"></div></p></Link>
                 
             </div>
             <div className="article-box">

@@ -14,6 +14,28 @@ import Slider from "react-slick";
 
 const Showcase = () => {
 
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "lightgray",borderRadius:"50px", boxShadow:"0px 0px 10px lightgray"  }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "lightgray",borderRadius:"50px", boxShadow:"0px 0px 10px lightgray" }}
+        onClick={onClick}
+      />
+    );
+  }
+
         const settings = {
             dots: true,
             infinite: true,
@@ -21,30 +43,55 @@ const Showcase = () => {
             centerPadding: "60px",
             slidesToScroll: 1,
             autoplay: true,
+            pauseOnHover: false,
             autoplaySpeed: 2000,
-            responsive: [
-              {
-                breakpoint: 768,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  infinite: true,
-                  dots: true
-                }
-              }
-            ]
-            
+            nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      }
+    ]
+    
         };
     return (
       <div className="slide">
         
         <Slider {...settings} className='slide-con'>
+        <div>
         <img src={showcase1} alt="" />
+        </div>
+        <div>
         <img src={showcase2} alt="" />
+        </div>
+        <div>
         <img src={showcase3} alt="" />
+        </div>
+        <div>
         <img src={showcase4} alt="" />
+        </div>
+        <div>
         <img src={showcase5} alt="" />
+        </div>
+        <div>
         <img src={showcase6} alt="" />
+        </div>
+        
     </Slider>
       </div>
     )

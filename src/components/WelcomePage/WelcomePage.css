@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 8rem;
     padding-bottom: 2rem;
 }
 .welcome h1{
@@ -53,8 +53,9 @@
 }
 .clients-image{
     width: 70%;
-    height: 100px;
+    height: 1000px;
     overflow: scroll;
+  
     display: flex;
     animation: slider 2s infinite;
     display: flex;
@@ -62,6 +63,41 @@
 }
 .clients-image img{
     margin:0 10px;
+}
+.client-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    color: black;
+    gap: 50px;
+}
+
+.logo-slider {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* background-color:#265aa2; */
+    /* box-shadow: inset 10px 0 10px 0 white; */
+}
+.client-logo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-slider img{
+    
+    width: 10vw;
+}
+.img-visible{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
@@ -83,5 +119,13 @@
     }
     .sentence-center{
         width: 90%;
+    }
+    .logo-slider img{
+    
+        width: 20vw;
+    }
+    .img-visible{
+        
+        border-radius: 5px;
     }
 }

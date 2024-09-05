@@ -1,15 +1,58 @@
 import React from 'react'
 import './WelcomePage.css'
-import client_image1 from '../../assets/WelcomePage/client1.webp'
-import client_image2 from '../../assets/WelcomePage/client2.webp'
-import client_image3 from '../../assets/WelcomePage/client3.webp'
-import client_image4 from '../../assets/WelcomePage/client4.webp'
-import client_image5 from '../../assets/WelcomePage/client5.webp'
+import Slider from "react-slick";
 import 'react-slideshow-image/dist/styles.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import client1 from '../../assets/WelcomePage/client1.png' 
+import client2 from '../../assets/WelcomePage/client2.png' 
+import client3 from '../../assets/WelcomePage/client3.jpeg' 
+import client4 from '../../assets/WelcomePage/client4.png' 
+import client5 from '../../assets/WelcomePage/client5.svg' 
+import client6 from '../../assets/WelcomePage/client6.webp' 
+import client7 from '../../assets/WelcomePage/client7.png' 
+import client8 from '../../assets/WelcomePage/client8.jpeg' 
+import client9 from '../../assets/WelcomePage/client9.png' 
+import client10 from '../../assets/WelcomePage/client10.svg' 
+import client11 from '../../assets/WelcomePage/client11.png' 
+import client12 from '../../assets/WelcomePage/client12.jpeg' 
+import client13 from '../../assets/WelcomePage/client13.png' 
+import client14 from '../../assets/WelcomePage/client14.png' 
+import client15 from '../../assets/WelcomePage/client15.webp' 
+import client16 from '../../assets/WelcomePage/client16.jpg' 
+import client17 from '../../assets/WelcomePage/client17.webp' 
 
 function WelcomePage() {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 5,
+    centerPadding: "60px",
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: false,
+    autoplaySpeed: 100,
+    speed: 5000,
+  cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          pauseOnHover: true,
+          speed: 2000,
+  cssEase: "linear",
+        }
+      }
+    ]
+    
+};
+
+
 
   return (
     <div className='welcome' id='welcome'>
@@ -27,18 +70,66 @@ function WelcomePage() {
             </div>
             </div>
         </div>
-      <marquee className="clients-image">
-      <img className='client-img1' src={client_image1} alt="" />
-      <img className='client-img2' src={client_image2} alt="" />
-      <img className='client-img3' src={client_image3} alt="" />
-      <img className='client-img4' src={client_image4} alt="" />
-      <img className='client-img5' src={client_image5} alt="" />
-      <img className='client-img1' src={client_image1} alt="" />
-      <img className='client-img2' src={client_image2} alt="" />
-      <img className='client-img3' src={client_image3} alt="" />
-      <img className='client-img4' src={client_image4} alt="" />
-      <img className='client-img5' src={client_image5} alt="" />
-      </ marquee>
+        <div className="client-logo">
+        <h2>Our Clients</h2>
+        <Slider {...settings} className='logo-slider'>
+
+        <div>
+        <img src={client1} alt="" />
+        </div>
+        <div>
+        <img src={client2} alt="" />
+        </div>
+        <div>
+        <img src={client3} alt="" />
+        </div>
+        <div>
+        <img src={client4} alt="" />
+        </div>
+        <div>
+        <img src={client5} alt="" />
+        </div>
+        <div>
+        <img className='img-visible' src={client6} alt="" />
+        </div>
+        <div>
+        <img className='img-visible' src={client7} alt="" />
+        </div>
+        <div>
+        <img src={client8} alt="" />
+        </div>
+        <div>
+        <img src={client9} alt="" />
+        </div>
+        <div>
+        <img src={client10} alt="" />
+        </div>
+        <div>
+        <img src={client11} alt="" />
+        </div>
+        <div>
+        <img src={client12} alt="" />
+        </div>
+        <div>
+        <img src={client13} alt="" />
+        </div>
+        <div>
+        <img src={client14} alt="" />
+        </div>
+        <div>
+        <img className='img-visible'src={client15} alt="" />
+        </div>
+        <div>
+        <img src={client16} alt="" />
+        </div>
+        <div>
+        <img src={client17} alt="" />
+        </div>
+        </Slider>
+
+      
+        
+        </div>
         </div>
       
     </div>
