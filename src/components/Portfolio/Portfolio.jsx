@@ -98,7 +98,7 @@ function Portfolio() {
         centerPadding: "60px",
         slidesToScroll: 1,
         autoplay: true,
-        pauseOnHover: false,
+        pauseOnHover: true,
         autoplaySpeed: 100,
         speed: 5000,
       cssEase: "linear",
@@ -137,7 +137,7 @@ function Portfolio() {
       centerPadding: "60px",
       slidesToScroll: 1,
       autoplay: true,
-      pauseOnHover: false,
+      pauseOnHover: true,
       autoplaySpeed: 100,
       speed: 5000,
       cssEase: "linear",
@@ -178,7 +178,7 @@ function Portfolio() {
       autoplay: true,
       speed: 5000,
       cssEase: "linear",
-      pauseOnHover: false,
+      pauseOnHover: true,
       autoplaySpeed: 100,
       rtl: true,
       responsive: [
@@ -215,7 +215,7 @@ function Portfolio() {
       centerPadding: "60px",
       slidesToScroll: 1,
       autoplay: true,
-      pauseOnHover: false,
+      pauseOnHover: true,
       autoplaySpeed: 100,  
       speed: 5000,
       cssEase: "linear",
@@ -254,6 +254,7 @@ function Portfolio() {
       centerPadding: "60px",
       slidesToScroll: 1,
       autoplay: true,
+      pauseOnHover: true,
       autoplaySpeed: 5000,
       nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -318,12 +319,10 @@ function Portfolio() {
         <div>
             <img src={outdoor2} alt="" />
         </div>
-        <div>
-            <img src={outdoor3} alt="" />
-        </div>
-        <div>
+       
+        {/* <div>
             <img src={outdoor4} alt="" />
-        </div>
+        </div> */}
         <div>
             <img src={outdoor5} alt="" />
         </div>

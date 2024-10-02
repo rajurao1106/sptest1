@@ -1,7 +1,7 @@
 import React from 'react'
 import './Blog.css'
 import update_image from '../../assets/Blog/brand.jpg'
-import img3 from '../../assets/Blog/img3.webp'
+import img3 from '../../assets/Blog/img4.webp'
 import img4 from '../../assets/Blog/img4.webp'
 import img5 from '../../assets/Blog/img5.webp'
 import img6 from '../../assets/Blog/img6.webp'

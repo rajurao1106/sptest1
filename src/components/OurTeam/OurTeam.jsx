@@ -7,6 +7,7 @@ import female from '../../assets/OurTeam/female.png'
 import sushant_sir from '../../assets/OurTeam/sushant-sir.jpg'
 import piyush_sir from '../../assets/OurTeam/piyush-sir.jpg'
 import shreeya_mam from '../../assets/OurTeam/shreeya-mam.jpg'
+import rahul from '../../assets/OurTeam/rahul.jpg'
 import vision from '../../assets/OurTeam/vision.jpg'
 import promise from '../../assets/OurTeam/promise.jpg'
 
@@ -97,7 +98,7 @@ Keeping our workplace fun and fabulous! When not organizing interviews, She is b
               <div className="shine-effect">
                 <div className="team-icons">
                   <p>"Our Sales Manager S.Bujji Rao
-Sealing deals with style and charm! who can turn a "maybe" into a "yes" by saying No fear when I am here. When not closing sales he keep the team entertained with the latest viral videos or reels.
+Sealing deals with style and charm! who can turn a "maybe" into a "yes" by saying No fear when I am here. When not closing sales he keeps the team entertained with the latest viral videos or reels.
 "</p>
                 </div>
               </div>
@@ -128,7 +129,7 @@ All in One who helps everyone with their work and even give advice to make it mo
                   Crafting websites with lots of patience and punctuality. Never takes a day off but somehow manages to get a day off and make digital dreams come true! Master of turning “404 Not Found” into “404 Awesome!"</p>
                 </div>
               </div>
-              <img src={male} alt="" />
+              <img src={rahul} alt="" />
             </div>
             <div className="name"><h2>Rahul Nishad</h2></div>
             <div className="position"><p>Web Developer</p></div>

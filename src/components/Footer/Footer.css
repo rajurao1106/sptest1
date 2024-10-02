@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #265AA5;
+    background-image: linear-gradient(to right, #00ccff , #265AA5);
     color: white;
 }
 .footer-con{
@@ -20,11 +20,17 @@
     width: 30px;
 }
 .social-icon{
+    width: 80%;
+    
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-direction: column;
     gap: 10px;
+}
+.social-icon img{
+    width: 200px;
+    border-radius: 10px;
 }
 .footer-contact, .footer-service{
     display: flex;
@@ -47,10 +53,9 @@
 .footer-box{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 50px;
     justify-content: center;
-    
-
+    width: 80%;
 }
 
 .footer-box .div1{
@@ -58,7 +63,12 @@
     justify-content: center;
     width: 100%;
 }
-
+.best-line{
+    width: 60%;
+}
+.best-line p{
+    font-size: 18px;
+}
 .footer-box li{
     color: white;
     font-family: "Calibri", Arial,sans-serif;
@@ -67,7 +77,9 @@
   font-style: normal;
 }
 
-
+.copyright p a{
+    font-weight: 400;
+}
 hr{
     width:80%;
     height: 1px;
@@ -97,8 +109,9 @@ hr{
 .address{
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    
+    gap: 20px;
+    justify-content: space-between;
+    height: 100%;
 }
 .address p{
     font-size: 16px;
@@ -106,6 +119,7 @@ hr{
 .footer-conct{
     display: grid;
     gap: 5px;
+    text-align: center;
 }
 
 
@@ -118,12 +132,17 @@ hr{
         flex-direction: column;
         align-items: center;
     }
-    
+    .best-line p{
+        font-size: 14px;
+
+    }
     .pages{
         flex-direction: column;
         gap: 10px;
     }
-    
+    .best-line{
+        width: 90%;
+    }
     .div1{
         width: 100%;
     }
@@ -149,10 +168,15 @@ hr{
     
 }
 
-@media (max-width:425px){
+@media (max-width:945px){
     .footer-box{
         flex-direction: column;
         align-items: center;
         width: 90%;
+    }
+    .address{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 } 

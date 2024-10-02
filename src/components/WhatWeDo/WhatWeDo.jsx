@@ -13,7 +13,7 @@ function WhatWeDo() {
   return (
     <div className='whatwedo' id='services'>
       <div className="whatwedo-con">
-        <h1 data-aos="fade-up">OUR EXPERTISE</h1>
+      <div className='our-expertise'><h1><p>OUR EXPERTISE</p></h1></div>
         <div className="whatwedo-box">
           
         <Link to={"/Outdoor-Advertising"} className="wwd-box" data-aos="fade-up" >
@@ -70,6 +70,8 @@ function WhatWeDo() {
             <div className="points">
                 <div className="points-box"><img src={blue_tick} alt="" /><p>Corporate Event</p></div>
                 <div className="points-box"><img src={blue_tick} alt="" /><p>Mall Activation</p></div>
+                <div className="points-box"><img src={blue_tick} alt="" /><p>Exhibitions</p></div>
+                <div className="points-box"><img src={blue_tick} alt="" /><p>Conference and seminars</p></div>
             </div>
           </Link>
           

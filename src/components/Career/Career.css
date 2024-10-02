@@ -69,3 +69,16 @@
     border: hidden;
     width: 10rem;
 }
+.form-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    gap: 10px;
+
+}
+form{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

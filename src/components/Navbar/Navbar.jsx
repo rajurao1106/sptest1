@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className='navbar' >
 
-      <a className='watsapp' aria-label="Chat on WhatsAp" to="https://wa.me/918085354646"><img src={whatsapp} alt="" /></a>
+      <a className='watsapp' aria-label="Chat on WhatsApp" to="https://wa.me/918085354646"><img src={whatsapp} alt="" /></a>
       <div className="navbar-con">
         
       <div className="logo"><Link to={'/'} onClick={()=>setMenu("Home")}><img src={logo} alt="" /></Link></div>

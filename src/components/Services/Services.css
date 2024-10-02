@@ -139,10 +139,7 @@
         text-align: center;
         
     }
-    .topic-left p{
-        text-align: justify;
-        text-justify: inter-word;
-    }
+    
     .topic-left h1{
         font-size: 35px;
     }

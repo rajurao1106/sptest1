@@ -16,7 +16,6 @@ function EventPromotion() {
       <div className="service-right">
               <img src={event} alt="" data-aos="zoom-in"/>
           </div>
-          
       </div>
       <div className='ul'>
     

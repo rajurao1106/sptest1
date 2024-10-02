@@ -17,10 +17,11 @@ import Showcase from './components/Showcase/Showcase.jsx';
 import WhatWeDo from './components/WhatWeDo/WhatWeDo.jsx';
 import WelcomePage from './components/WelcomePage/WelcomePage.jsx';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar.jsx';
 import ScrollToTop from './useScrollToTop.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Homepage from './Homepage.jsx';
+import Career from './components/Career/Career.jsx';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/About" element={<AboutMe/>}/>
           <Route path="/Choose-Us" element={<ChooseUs/>}/>
           <Route path="/Contact" element={<Contact/>}/>
+          <Route path="/Career" element={<Career/>}/>
           <Route path="/Footer"element={<Footer/>}/>
           <Route path="/ScrollEffect"element={<ScrollEffect/>}/>
           <Route path="/Showcase"element={<Showcase/>}/>

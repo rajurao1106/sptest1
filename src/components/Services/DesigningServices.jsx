@@ -3,7 +3,7 @@ import './Services.css'
 import design from '../../assets/Services/DesigningServices/design.jpg'
 import { Link } from 'react-router-dom'
 import packaging_img from '../../assets/Services/DesigningServices/packaging-img.jpg' 
-import packaging_img2 from '../../assets/Services/DesigningServices/packaging-img3.jpg' 
+import packaging_img2 from '../../assets/Services/DesigningServices/creative-design3.jpg' 
 import packaging_img1 from '../../assets/Services/DesigningServices/creative-design8.jpg' 
 
 function DesigningServices() {
@@ -25,7 +25,7 @@ function DesigningServices() {
         
           <div className='topic-left' data-aos="fade-right">
             <h1>Packaging</h1>
-            <p>Packaging design involves creating the exterior of a product to attract consumers, protect contents, and convey brand identity. Effective packaging combines aesthetics and functionality, ensuring the product stands out and meets practical needs.</p>
+            <p>In today's competitive market, having the Best Packaging Design Service is essential to capture consumer attention. Our creative solutions ensure your packaging is not only visually stunning but also functional and aligned with your brand's identity. With the Best Packaging Design Service, you can make a memorable impact that drives sales and brand loyalty.</p>
           </div>
           <img src={packaging_img} alt="" data-aos="zoom-in"/>
         </div>

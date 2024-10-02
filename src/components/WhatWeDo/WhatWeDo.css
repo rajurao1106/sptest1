@@ -6,10 +6,29 @@
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
-.whatwedo h1{
-    color:#265AA5;
-    padding-bottom: 3rem;
+
+
+
+.our-expertise{
+    line-height: 0;
 }
+.our-expertise p{
+    color: #265AA5;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.our-expertise h1{
+    color: #F0F0F0;
+    font-size: 90px;
+    margin-top: 3rem;
+    
+}
+
+
+
+
 .whatwedo-con{
     width: 90%;
     display: flex;
@@ -31,7 +50,6 @@
     height: 50px;
     background-color: #265AA5;
     color: white;
-    border-radius: 4px 4px 0 0;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -45,6 +63,7 @@
     box-shadow: 0 3px 10px rgb(211, 211, 211);
     
 }
+
 .banner{
     width: 20rem;
     height: 15rem;
@@ -75,6 +94,7 @@
     width: 1.5rem;
 }
 
+
 @media (max-width:768px) {
     .points{
         padding-left: 20px;
@@ -83,5 +103,28 @@
     .whatwedo h1{
         font-size: 30px;
         padding-bottom: 1rem;
+    }
+    
+}
+
+@media (max-width:850px) {
+    
+    .our-expertise h1{
+        font-size: 50px;
+    }
+    .our-expertise p{
+        font-size: 18px;
+             
+    }
+}
+
+@media (max-width:468px) {
+    
+    .our-expertise h1{
+        font-size: 42px;
+    }
+    .our-expertise p{
+        font-size: 18px;
+        margin-bottom: 3rem;
     }
 }
